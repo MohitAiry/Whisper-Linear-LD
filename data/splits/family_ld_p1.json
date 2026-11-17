@@ -1,0 +1,44 @@
+{
+ "protocol": "p1",
+ "created": "2026-11-03",
+ "rule": "family_ld split by family (a/b parts together); 3 ML-EN + 3 KN-EN families drawn with random.Random(20261103).sample per stratum, before looking at any per-file results",
+ "dev_families": [
+  "SID02",
+  "SID03",
+  "SID10",
+  "SID13",
+  "SID14",
+  "SID15"
+ ],
+ "dev": [
+  "SID02",
+  "SID03a",
+  "SID03b",
+  "SID10",
+  "SID13a",
+  "SID13b",
+  "SID14",
+  "SID15"
+ ],
+ "test": [
+  "SID01",
+  "SID04",
+  "SID05",
+  "SID06",
+  "SID07a",
+  "SID07b",
+  "SID08",
+  "SID09a",
+  "SID09b",
+  "SID11",
+  "SID12",
+  "SID16",
+  "SID17",
+  "SID18a",
+  "SID18b",
+  "SID19a",
+  "SID19b",
+  "SID20a",
+  "SID20b"
+ ]
+}

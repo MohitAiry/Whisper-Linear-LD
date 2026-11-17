@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+# data, features and outputs stay out of git (see README "Data")
+data/audio/
+data/rttm/
+data/features/
+runs/
+out/
+*.npy
+*.wav

@@ -1,0 +1,1262 @@
+{
+ "family_ld_test": {
+  "ign": {
+   "E0r": {
+    "seeds": 3,
+    "per_seed": [
+     20.49,
+     20.1,
+     20.52
+    ],
+    "mean": 20.37,
+    "sd_seeds": 0.23,
+    "ci_sessions": [
+     15.4,
+     25.4
+    ],
+    "ci_sessions_seeds": [
+     15.4,
+     25.4
+    ],
+    "miss_fa_conf": [
+     0.0,
+     3.8,
+     16.6
+    ],
+    "scored_hours": 13.0,
+    "median_file": 22.7,
+    "worst_files": [
+     [
+      "SID07a",
+      39.8
+     ],
+     [
+      "SID20a",
+      36.5
+     ],
+     [
+      "SID01",
+      33.9
+     ]
+    ]
+   },
+   "whisper-LID": {
+    "seeds": 1,
+    "per_seed": [
+     18.34
+    ],
+    "mean": 18.34,
+    "sd_seeds": null,
+    "ci_sessions": [
+     11.4,
+     26.5
+    ],
+    "ci_sessions_seeds": [
+     11.4,
+     26.5
+    ],
+    "miss_fa_conf": [
+     0.0,
+     4.0,
+     14.4
+    ],
+    "scored_hours": 13.0,
+    "median_file": 11.5,
+    "worst_files": [
+     [
+      "SID20b",
+      73.9
+     ],
+     [
+      "SID20a",
+      61.0
+     ],
+     [
+      "SID12",
+      39.5
+     ]
+    ]
+   },
+   "F1": {
+    "seeds": 5,
+    "per_seed": [
+     9.24,
+     9.58,
+     8.09,
+     8.82,
+     7.23
+    ],
+    "mean": 8.59,
+    "sd_seeds": 0.94,
+    "ci_sessions": [
+     5.7,
+     12.0
+    ],
+    "ci_sessions_seeds": [
+     5.6,
+     12.1
+    ],
+    "miss_fa_conf": [
+     0.4,
+     3.8,
+     4.4
+    ],
+    "scored_hours": 13.0,
+    "median_file": 6.2,
+    "worst_files": [
+     [
+      "SID20b",
+      23.9
+     ],
+     [
+      "SID20a",
+      23.0
+     ],
+     [
+      "SID12",
+      22.4
+     ]
+    ]
+   },
+   "F1-ens5": {
+    "seeds": 1,
+    "per_seed": [
+     7.46
+    ],
+    "mean": 7.46,
+    "sd_seeds": null,
+    "ci_sessions": [
+     4.8,
+     10.7
+    ],
+    "ci_sessions_seeds": [
+     4.8,
+     10.7
+    ],
+    "miss_fa_conf": [
+     0.1,
+     3.9,
+     3.5
+    ],
+    "scored_hours": 13.0,
+    "median_file": 5.3,
+    "worst_files": [
+     [
+      "SID12",
+      22.9
+     ],
+     [
+      "SID01",
+      21.3
+     ],
+     [
+      "SID20b",
+      15.5
+     ]
+    ]
+   },
+   "F1-linear": {
+    "seeds": 5,
+    "per_seed": [
+     6.91,
+     6.95,
+     7.28,
+     7.89,
+     6.76
+    ],
+    "mean": 7.16,
+    "sd_seeds": 0.45,
+    "ci_sessions": [
+     4.6,
+     10.2
+    ],
+    "ci_sessions_seeds": [
+     4.6,
+     10.2
+    ],
+    "miss_fa_conf": [
+     0.0,
+     4.0,
+     3.2
+    ],
+    "scored_hours": 13.0,
+    "median_file": 4.7,
+    "worst_files": [
+     [
+      "SID12",
+      20.4
+     ],
+     [
+      "SID01",
+      20.2
+     ],
+     [
+      "SID20b",
+      17.0
+     ]
+    ]
+   },
+   "linear-ens5": {
+    "seeds": 1,
+    "per_seed": [
+     6.85
+    ],
+    "mean": 6.85,
+    "sd_seeds": null,
+    "ci_sessions": [
+     4.4,
+     9.7
+    ],
+    "ci_sessions_seeds": [
+     4.4,
+     9.7
+    ],
+    "miss_fa_conf": [
+     0.0,
+     4.0,
+     2.9
+    ],
+    "scored_hours": 13.0,
+    "median_file": 4.6,
+    "worst_files": [
+     [
+      "SID12",
+      19.9
+     ],
+     [
+      "SID01",
+      19.9
+     ],
+     [
+      "SID20b",
+      14.8
+     ]
+    ]
+   },
+   "F1 - E0r": {
+    "diff": -11.79,
+    "ci": [
+     -15.7,
+     -8.1
+    ],
+    "p_better": 1.0
+   },
+   "F1-ens5 - F1": {
+    "diff": -1.14,
+    "ci": [
+     -2.2,
+     -0.4
+    ],
+    "p_better": 1.0
+   },
+   "F1-ens5 - E0r": {
+    "diff": -12.93,
+    "ci": [
+     -17.2,
+     -8.9
+    ],
+    "p_better": 1.0
+   },
+   "F1-linear - E0r": {
+    "diff": -13.24,
+    "ci": [
+     -17.4,
+     -9.3
+    ],
+    "p_better": 1.0
+   },
+   "whisper-LID - E0r": {
+    "diff": -1.99,
+    "ci": [
+     -8.0,
+     4.2
+    ],
+    "p_better": 0.7408
+   },
+   "F1-linear - whisper-LID": {
+    "diff": -11.24,
+    "ci": [
+     -17.2,
+     -6.2
+    ],
+    "p_better": 1.0
+   },
+   "linear-ens5 - whisper-LID": {
+    "diff": -11.56,
+    "ci": [
+     -17.8,
+     -6.3
+    ],
+    "p_better": 1.0
+   },
+   "linear-ens5 - F1-linear": {
+    "diff": -0.31,
+    "ci": [
+     -0.6,
+     -0.1
+    ],
+    "p_better": 1.0
+   },
+   "linear-ens5 - F1-ens5": {
+    "diff": -0.62,
+    "ci": [
+     -1.1,
+     -0.2
+    ],
+    "p_better": 0.9995
+   },
+   "F1-linear - F1": {
+    "diff": -1.44,
+    "ci": [
+     -2.4,
+     -0.7
+    ],
+    "p_better": 1.0
+   }
+  },
+  "c0": {
+   "E0r": {
+    "seeds": 3,
+    "per_seed": [
+     23.57,
+     23.14,
+     23.53
+    ],
+    "mean": 23.42,
+    "sd_seeds": 0.24,
+    "ci_sessions": [
+     18.2,
+     28.6
+    ],
+    "ci_sessions_seeds": [
+     18.2,
+     28.7
+    ],
+    "miss_fa_conf": [
+     0.8,
+     5.5,
+     17.1
+    ],
+    "scored_hours": 14.06,
+    "median_file": 24.0,
+    "worst_files": [
+     [
+      "SID07a",
+      41.4
+     ],
+     [
+      "SID01",
+      40.7
+     ],
+     [
+      "SID20a",
+      39.7
+     ]
+    ]
+   },
+   "whisper-LID": {
+    "seeds": 1,
+    "per_seed": [
+     21.76
+    ],
+    "mean": 21.76,
+    "sd_seeds": null,
+    "ci_sessions": [
+     14.0,
+     30.3
+    ],
+    "ci_sessions_seeds": [
+     14.0,
+     30.3
+    ],
+    "miss_fa_conf": [
+     0.8,
+     5.7,
+     15.2
+    ],
+    "scored_hours": 14.06,
+    "median_file": 14.0,
+    "worst_files": [
+     [
+      "SID20b",
+      75.7
+     ],
+     [
+      "SID20a",
+      63.5
+     ],
+     [
+      "SID12",
+      44.5
+     ]
+    ]
+   },
+   "F1": {
+    "seeds": 5,
+    "per_seed": [
+     12.55,
+     13.04,
+     11.46,
+     12.21,
+     10.49
+    ],
+    "mean": 11.95,
+    "sd_seeds": 1.0,
+    "ci_sessions": [
+     8.0,
+     16.4
+    ],
+    "ci_sessions_seeds": [
+     7.8,
+     16.4
+    ],
+    "miss_fa_conf": [
+     1.3,
+     5.5,
+     5.1
+    ],
+    "scored_hours": 14.06,
+    "median_file": 7.8,
+    "worst_files": [
+     [
+      "SID01",
+      29.0
+     ],
+     [
+      "SID12",
+      28.8
+     ],
+     [
+      "SID20b",
+      27.3
+     ]
+    ]
+   },
+   "F1-ens5": {
+    "seeds": 1,
+    "per_seed": [
+     10.83
+    ],
+    "mean": 10.83,
+    "sd_seeds": null,
+    "ci_sessions": [
+     7.1,
+     15.1
+    ],
+    "ci_sessions_seeds": [
+     7.1,
+     15.1
+    ],
+    "miss_fa_conf": [
+     0.9,
+     5.7,
+     4.3
+    ],
+    "scored_hours": 14.06,
+    "median_file": 7.2,
+    "worst_files": [
+     [
+      "SID12",
+      29.2
+     ],
+     [
+      "SID01",
+      29.2
+     ],
+     [
+      "SID20b",
+      19.1
+     ]
+    ]
+   },
+   "F1-linear": {
+    "seeds": 5,
+    "per_seed": [
+     10.2,
+     10.25,
+     10.6,
+     11.26,
+     10.07
+    ],
+    "mean": 10.48,
+    "sd_seeds": 0.48,
+    "ci_sessions": [
+     6.9,
+     14.5
+    ],
+    "ci_sessions_seeds": [
+     6.9,
+     14.5
+    ],
+    "miss_fa_conf": [
+     0.8,
+     5.7,
+     3.9
+    ],
+    "scored_hours": 14.06,
+    "median_file": 6.9,
+    "worst_files": [
+     [
+      "SID01",
+      27.8
+     ],
+     [
+      "SID12",
+      26.9
+     ],
+     [
+      "SID20b",
+      20.6
+     ]
+    ]
+   },
+   "linear-ens5": {
+    "seeds": 1,
+    "per_seed": [
+     10.16
+    ],
+    "mean": 10.16,
+    "sd_seeds": null,
+    "ci_sessions": [
+     6.7,
+     14.1
+    ],
+    "ci_sessions_seeds": [
+     6.7,
+     14.1
+    ],
+    "miss_fa_conf": [
+     0.8,
+     5.7,
+     3.6
+    ],
+    "scored_hours": 14.06,
+    "median_file": 6.8,
+    "worst_files": [
+     [
+      "SID01",
+      27.6
+     ],
+     [
+      "SID12",
+      26.5
+     ],
+     [
+      "SID20b",
+      18.4
+     ]
+    ]
+   },
+   "F1 - E0r": {
+    "diff": -11.49,
+    "ci": [
+     -15.3,
+     -8.0
+    ],
+    "p_better": 1.0
+   },
+   "F1-ens5 - F1": {
+    "diff": -1.13,
+    "ci": [
+     -2.2,
+     -0.3
+    ],
+    "p_better": 1.0
+   },
+   "F1-ens5 - E0r": {
+    "diff": -12.61,
+    "ci": [
+     -16.7,
+     -8.8
+    ],
+    "p_better": 1.0
+   },
+   "F1-linear - E0r": {
+    "diff": -12.97,
+    "ci": [
+     -17.0,
+     -9.3
+    ],
+    "p_better": 1.0
+   },
+   "whisper-LID - E0r": {
+    "diff": -1.64,
+    "ci": [
+     -7.6,
+     4.4
+    ],
+    "p_better": 0.7013
+   },
+   "F1-linear - whisper-LID": {
+    "diff": -11.33,
+    "ci": [
+     -17.2,
+     -6.3
+    ],
+    "p_better": 1.0
+   },
+   "linear-ens5 - whisper-LID": {
+    "diff": -11.65,
+    "ci": [
+     -17.8,
+     -6.4
+    ],
+    "p_better": 1.0
+   },
+   "linear-ens5 - F1-linear": {
+    "diff": -0.32,
+    "ci": [
+     -0.6,
+     -0.1
+    ],
+    "p_better": 1.0
+   },
+   "linear-ens5 - F1-ens5": {
+    "diff": -0.67,
+    "ci": [
+     -1.2,
+     -0.2
+    ],
+    "p_better": 0.9998
+   },
+   "F1-linear - F1": {
+    "diff": -1.48,
+    "ci": [
+     -2.4,
+     -0.8
+    ],
+    "p_better": 1.0
+   }
+  }
+ },
+ "displace": {
+  "ign": {
+   "E0r": {
+    "seeds": 3,
+    "per_seed": [
+     34.57,
+     31.69,
+     34.84
+    ],
+    "mean": 33.7,
+    "sd_seeds": 1.75,
+    "ci_sessions": [
+     30.1,
+     37.8
+    ],
+    "ci_sessions_seeds": [
+     29.7,
+     38.1
+    ],
+    "miss_fa_conf": [
+     0.0,
+     5.1,
+     28.6
+    ],
+    "scored_hours": 12.9,
+    "median_file": 32.6,
+    "worst_files": [
+     [
+      "M037",
+      79.7
+     ],
+     [
+      "M026",
+      75.7
+     ],
+     [
+      "M043",
+      53.7
+     ]
+    ]
+   },
+   "whisper-LID": {
+    "seeds": 1,
+    "per_seed": [
+     24.65
+    ],
+    "mean": 24.65,
+    "sd_seeds": null,
+    "ci_sessions": [
+     20.9,
+     29.3
+    ],
+    "ci_sessions_seeds": [
+     20.9,
+     29.3
+    ],
+    "miss_fa_conf": [
+     0.0,
+     5.2,
+     19.5
+    ],
+    "scored_hours": 12.9,
+    "median_file": 22.4,
+    "worst_files": [
+     [
+      "M037",
+      84.0
+     ],
+     [
+      "M026",
+      67.6
+     ],
+     [
+      "M028",
+      66.5
+     ]
+    ]
+   },
+   "F1": {
+    "seeds": 5,
+    "per_seed": [
+     19.46,
+     21.49,
+     20.18,
+     16.43,
+     15.92
+    ],
+    "mean": 18.7,
+    "sd_seeds": 2.42,
+    "ci_sessions": [
+     15.4,
+     23.0
+    ],
+    "ci_sessions_seeds": [
+     14.9,
+     23.5
+    ],
+    "miss_fa_conf": [
+     0.4,
+     5.1,
+     13.1
+    ],
+    "scored_hours": 12.9,
+    "median_file": 17.3,
+    "worst_files": [
+     [
+      "M037",
+      77.4
+     ],
+     [
+      "M026",
+      62.1
+     ],
+     [
+      "M031",
+      39.6
+     ]
+    ]
+   },
+   "F1-ens5": {
+    "seeds": 1,
+    "per_seed": [
+     15.82
+    ],
+    "mean": 15.82,
+    "sd_seeds": null,
+    "ci_sessions": [
+     12.9,
+     19.8
+    ],
+    "ci_sessions_seeds": [
+     12.9,
+     19.8
+    ],
+    "miss_fa_conf": [
+     0.5,
+     5.2,
+     10.2
+    ],
+    "scored_hours": 12.9,
+    "median_file": 13.7,
+    "worst_files": [
+     [
+      "M037",
+      77.5
+     ],
+     [
+      "M026",
+      61.6
+     ],
+     [
+      "M031",
+      32.7
+     ]
+    ]
+   },
+   "F1-linear": {
+    "seeds": 5,
+    "per_seed": [
+     14.28,
+     14.69,
+     14.15,
+     16.42,
+     14.44
+    ],
+    "mean": 14.8,
+    "sd_seeds": 0.93,
+    "ci_sessions": [
+     12.0,
+     18.6
+    ],
+    "ci_sessions_seeds": [
+     11.9,
+     18.6
+    ],
+    "miss_fa_conf": [
+     0.0,
+     5.1,
+     9.6
+    ],
+    "scored_hours": 12.9,
+    "median_file": 12.8,
+    "worst_files": [
+     [
+      "M037",
+      77.3
+     ],
+     [
+      "M026",
+      61.1
+     ],
+     [
+      "M031",
+      28.7
+     ]
+    ]
+   },
+   "linear-ens5": {
+    "seeds": 1,
+    "per_seed": [
+     14.37
+    ],
+    "mean": 14.37,
+    "sd_seeds": null,
+    "ci_sessions": [
+     11.6,
+     18.2
+    ],
+    "ci_sessions_seeds": [
+     11.6,
+     18.2
+    ],
+    "miss_fa_conf": [
+     0.0,
+     5.2,
+     9.2
+    ],
+    "scored_hours": 12.9,
+    "median_file": 12.5,
+    "worst_files": [
+     [
+      "M037",
+      77.2
+     ],
+     [
+      "M026",
+      61.2
+     ],
+     [
+      "M031",
+      27.2
+     ]
+    ]
+   },
+   "F1 - E0r": {
+    "diff": -14.98,
+    "ci": [
+     -17.6,
+     -12.2
+    ],
+    "p_better": 1.0
+   },
+   "F1-ens5 - F1": {
+    "diff": -2.9,
+    "ci": [
+     -3.9,
+     -2.0
+    ],
+    "p_better": 1.0
+   },
+   "F1-ens5 - E0r": {
+    "diff": -17.87,
+    "ci": [
+     -20.5,
+     -15.1
+    ],
+    "p_better": 1.0
+   },
+   "F1-linear - E0r": {
+    "diff": -18.9,
+    "ci": [
+     -21.3,
+     -16.4
+    ],
+    "p_better": 1.0
+   },
+   "whisper-LID - E0r": {
+    "diff": -9.01,
+    "ci": [
+     -12.5,
+     -4.9
+    ],
+    "p_better": 0.9999
+   },
+   "F1-linear - whisper-LID": {
+    "diff": -9.89,
+    "ci": [
+     -12.7,
+     -7.6
+    ],
+    "p_better": 1.0
+   },
+   "linear-ens5 - whisper-LID": {
+    "diff": -10.31,
+    "ci": [
+     -13.1,
+     -8.0
+    ],
+    "p_better": 1.0
+   },
+   "linear-ens5 - F1-linear": {
+    "diff": -0.42,
+    "ci": [
+     -0.8,
+     -0.1
+    ],
+    "p_better": 0.9988
+   },
+   "linear-ens5 - F1-ens5": {
+    "diff": -1.45,
+    "ci": [
+     -2.2,
+     -0.8
+    ],
+    "p_better": 1.0
+   },
+   "F1-linear - F1": {
+    "diff": -3.92,
+    "ci": [
+     -5.2,
+     -2.8
+    ],
+    "p_better": 1.0
+   }
+  },
+  "c0": {
+   "E0r": {
+    "seeds": 3,
+    "per_seed": [
+     41.36,
+     39.57,
+     41.59
+    ],
+    "mean": 40.84,
+    "sd_seeds": 1.11,
+    "ci_sessions": [
+     38.0,
+     44.0
+    ],
+    "ci_sessions_seeds": [
+     37.8,
+     44.2
+    ],
+    "miss_fa_conf": [
+     6.3,
+     6.3,
+     28.3
+    ],
+    "scored_hours": 19.73,
+    "median_file": 40.0,
+    "worst_files": [
+     [
+      "M037",
+      69.3
+     ],
+     [
+      "M026",
+      63.6
+     ],
+     [
+      "M043",
+      58.6
+     ]
+    ]
+   },
+   "whisper-LID": {
+    "seeds": 1,
+    "per_seed": [
+     35.43
+    ],
+    "mean": 35.43,
+    "sd_seeds": null,
+    "ci_sessions": [
+     31.8,
+     39.6
+    ],
+    "ci_sessions_seeds": [
+     31.8,
+     39.6
+    ],
+    "miss_fa_conf": [
+     6.3,
+     6.3,
+     22.8
+    ],
+    "scored_hours": 19.73,
+    "median_file": 31.9,
+    "worst_files": [
+     [
+      "M037",
+      74.7
+     ],
+     [
+      "M028",
+      69.8
+     ],
+     [
+      "M026",
+      58.9
+     ]
+    ]
+   },
+   "F1": {
+    "seeds": 5,
+    "per_seed": [
+     31.55,
+     33.45,
+     32.15,
+     28.73,
+     28.11
+    ],
+    "mean": 30.8,
+    "sd_seeds": 2.29,
+    "ci_sessions": [
+     27.6,
+     34.6
+    ],
+    "ci_sessions_seeds": [
+     27.1,
+     35.1
+    ],
+    "miss_fa_conf": [
+     6.6,
+     6.3,
+     17.9
+    ],
+    "scored_hours": 19.73,
+    "median_file": 29.8,
+    "worst_files": [
+     [
+      "M037",
+      68.0
+     ],
+     [
+      "M026",
+      55.3
+     ],
+     [
+      "M031",
+      49.4
+     ]
+    ]
+   },
+   "F1-ens5": {
+    "seeds": 1,
+    "per_seed": [
+     28.1
+    ],
+    "mean": 28.1,
+    "sd_seeds": null,
+    "ci_sessions": [
+     25.1,
+     31.7
+    ],
+    "ci_sessions_seeds": [
+     25.1,
+     31.7
+    ],
+    "miss_fa_conf": [
+     6.6,
+     6.3,
+     15.2
+    ],
+    "scored_hours": 19.73,
+    "median_file": 26.5,
+    "worst_files": [
+     [
+      "M037",
+      68.1
+     ],
+     [
+      "M026",
+      55.1
+     ],
+     [
+      "M031",
+      45.2
+     ]
+    ]
+   },
+   "F1-linear": {
+    "seeds": 5,
+    "per_seed": [
+     26.74,
+     27.11,
+     26.64,
+     28.72,
+     26.94
+    ],
+    "mean": 27.23,
+    "sd_seeds": 0.85,
+    "ci_sessions": [
+     24.4,
+     30.6
+    ],
+    "ci_sessions_seeds": [
+     24.4,
+     30.8
+    ],
+    "miss_fa_conf": [
+     6.3,
+     6.3,
+     14.6
+    ],
+    "scored_hours": 19.73,
+    "median_file": 25.3,
+    "worst_files": [
+     [
+      "M037",
+      68.0
+     ],
+     [
+      "M026",
+      54.6
+     ],
+     [
+      "M031",
+      42.8
+     ]
+    ]
+   },
+   "linear-ens5": {
+    "seeds": 1,
+    "per_seed": [
+     26.84
+    ],
+    "mean": 26.84,
+    "sd_seeds": null,
+    "ci_sessions": [
+     24.1,
+     30.2
+    ],
+    "ci_sessions_seeds": [
+     24.1,
+     30.2
+    ],
+    "miss_fa_conf": [
+     6.3,
+     6.3,
+     14.2
+    ],
+    "scored_hours": 19.73,
+    "median_file": 25.4,
+    "worst_files": [
+     [
+      "M037",
+      67.9
+     ],
+     [
+      "M026",
+      54.6
+     ],
+     [
+      "M031",
+      41.8
+     ]
+    ]
+   },
+   "F1 - E0r": {
+    "diff": -10.03,
+    "ci": [
+     -12.2,
+     -7.7
+    ],
+    "p_better": 1.0
+   },
+   "F1-ens5 - F1": {
+    "diff": -2.71,
+    "ci": [
+     -3.7,
+     -1.8
+    ],
+    "p_better": 1.0
+   },
+   "F1-ens5 - E0r": {
+    "diff": -12.74,
+    "ci": [
+     -15.0,
+     -10.4
+    ],
+    "p_better": 1.0
+   },
+   "F1-linear - E0r": {
+    "diff": -13.61,
+    "ci": [
+     -15.7,
+     -11.6
+    ],
+    "p_better": 1.0
+   },
+   "whisper-LID - E0r": {
+    "diff": -5.39,
+    "ci": [
+     -8.6,
+     -1.6
+    ],
+    "p_better": 0.9961
+   },
+   "F1-linear - whisper-LID": {
+    "diff": -8.22,
+    "ci": [
+     -10.8,
+     -6.1
+    ],
+    "p_better": 1.0
+   },
+   "linear-ens5 - whisper-LID": {
+    "diff": -8.61,
+    "ci": [
+     -11.2,
+     -6.5
+    ],
+    "p_better": 1.0
+   },
+   "linear-ens5 - F1-linear": {
+    "diff": -0.39,
+    "ci": [
+     -0.7,
+     -0.1
+    ],
+    "p_better": 0.9991
+   },
+   "linear-ens5 - F1-ens5": {
+    "diff": -1.27,
+    "ci": [
+     -1.9,
+     -0.7
+    ],
+    "p_better": 1.0
+   },
+   "F1-linear - F1": {
+    "diff": -3.58,
+    "ci": [
+     -4.7,
+     -2.6
+    ],
+    "p_better": 1.0
+   }
+  }
+ }
+}

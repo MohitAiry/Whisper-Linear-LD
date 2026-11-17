@@ -1,0 +1,7 @@
+dataset,DER_ign,JER,DER,DER_c0,JER_c0
+ld_simulated,9.86,16.55,9.86,10.45,16.55
+ld_simulated_complex,10.43,21.62,10.43,11.91,21.62
+displace,14.45,44.68,16.45,26.94,44.68
+pilot_test,11.19,38.09,11.21,23.15,38.09
+family_ld_test,6.69,12.53,7.04,10.07,12.53
+family_ld_dev,6.59,11.54,6.96,9.43,11.54
